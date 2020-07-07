@@ -2,7 +2,7 @@
 #
 # This indicator graphs an estimated amount of volume from bulls vs bears.
 # OPTION: Drawn Unscaled by default using the full volume range. 
-#         Changing to the "FixedScale" input to "Scaled" will limi the range from 0 - 100.
+#         Changing the "FixedScale" input to "Scaled" will limit the range from 0 - 100.
 #
 
 declare lower;
