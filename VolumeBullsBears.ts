@@ -1,4 +1,4 @@
-# VolumeBullsBears v1.0 2020-07-07 JackieW
+# VolumeBullsBears v1.0 2020-07-08 JackieW
 #
 # This indicator graphs an estimated amount of volume from bulls vs bears.
 # OPTION: Drawn Unscaled by default using the full volume range. 
@@ -11,10 +11,9 @@ declare zerobase;
 input FixedScale = {default Unscaled, Scaled};
 
 def scale;
-switch (FixedScale) {
-case Unscaled:
-    scale = volume;
-case Scaled:
+if FixedScale == FixedScale.Unscaled {
+    scale =  volume;
+} else {
     scale = If(volume > 0, 100, 0);
 }
 

@@ -2,7 +2,7 @@
 
 A ThinkOrSwim script (thinkscript) volume indictor which renders an estimated number of contracts/shares bought vs sold. For a given time slice of an asset, the contracts bought are rendered in green while the number of contracts sold are rendered in red.
 
-TOS Shared Link: http://tos.mx/lkc3crJ
+TOS Shared Link: http://tos.mx/9zEjBFu
 
 ## Options:
 
