@@ -16,4 +16,4 @@ TOS Shared Link: http://tos.mx/9zEjBFu
 
 ## Scaled
 
-<img alt="Scaled" src="https://user-images.githubusercontent.com/3299770/86858391-8641b980-c0fb-11ea-91c9-ab9ad50389b8.png" width="50%">
+<img alt="Scaled" src="https://user-images.githubusercontent.com/3299770/86858587-e20c4280-c0fb-11ea-8d1f-a90c65e62e2d.png" width="50%">
