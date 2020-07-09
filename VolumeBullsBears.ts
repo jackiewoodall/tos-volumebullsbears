@@ -1,9 +1,9 @@
-# VolumeBullsBears v1.1 2020-07-08 JackieW
+# VolumeBullsBears v1.1 2020-07-09 JackieW
 #
-# This indicator graphs an estimated amount of volume from bulls vs bears.
-# OPTIONS: 
-#    "FixedScale": Drawn Unscaled by default using the full volume range. 
-#         Changing the "FixedScale" input to "Scaled" will limit the range from 0 - 100.
+#HINT: This indicator graphs an estimated amount of volume from bulls vs bears.
+#OPTIONS:
+#    "FixedScale": Drawn Unscaled by default using the full volume range.
+#        Changing the "FixedScale" input to "Scaled" will limit the range from 0 - 100.
 #    "VolumeAverage": enable/disable volume average plot line
 #    "VolAvgLength": number of bars for volume average
 #
