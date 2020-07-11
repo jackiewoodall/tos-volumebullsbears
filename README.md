@@ -1,7 +1,6 @@
-<img width="50%" alt="sample shot" src="https://user-images.githubusercontent.com/3299770/87215923-e479d100-c375-11ea-97c0-3e5daa3d4c7b.png">
-
-
 # VolumeBullsBears
+
+<img width="50%" alt="sample shot" src="https://user-images.githubusercontent.com/3299770/87215923-e479d100-c375-11ea-97c0-3e5daa3d4c7b.png">
 
 A ThinkOrSwim script (thinkscript) volume indictor which renders an estimated number of contracts/shares bought vs sold. For a given time slice of an asset, the contracts "bought" are rendered in green while the number of contracts "sold" are rendered in red.
 
@@ -44,7 +43,7 @@ If you do not see the study, be sure you have enabled the chart's volume subgrap
 
 <img width="75%" alt="labels" src="https://user-images.githubusercontent.com/3299770/87215478-d5911f80-c371-11ea-89a1-8c2e2df99b95.png">
 
-On the chart above at 13:50, the was a total of 2,141 contracts traded. Of that, there was an estimation of 483 buyers and 1,658 sellers.
+On the chart above at 13:50 there was a total of 2,141 contracts traded. Of that, there was an estimation of 483 buyers and 1,658 sellers.
 
 The number of **Buyers** + **Sellers** should always equal **Total Volume**.
 
