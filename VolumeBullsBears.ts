@@ -1,6 +1,6 @@
-# VolumeBullsBears v1.1 2020-07-09 JackieW
+# VolumeBullsBears v1.1 2020-07-11 JackieW
 #
-#HINT: This indicator graphs an estimated amount of volume from bulls vs bears.
+#HINT: This indicator graphs an estimated amount of volume from bulls vs bears.\n\nThe default location is the volume subgraph. Be sure you have "show volume subgraph" checked under chart settings for the asset.
 #OPTIONS:
 #    "FixedScale": Drawn Unscaled by default using the full volume range.
 #        Changing the "FixedScale" input to "Scaled" will limit the range from 0 - 100.
@@ -8,7 +8,7 @@
 #    "VolAvgLength": number of bars for volume average
 #
 
-declare lower;
+declare on_volume; #default location is the volume subgraph
 declare zerobase;
 
 input FixedScale = {default Unscaled, Scaled};
