@@ -49,7 +49,7 @@ The number of **Buyers** + **Sellers** should always equal **Total Volume**.
 
 **Buyers** and **Sellers** is an guestimation based upon the close of the candle relative to the total range of the candle. That is, this is **not** by any means a direct reflection of the actual number of units bought and sold.
 
-It is important to understand the underlying formulas for calculating what percentage of total volume compose of bulls and bears. These formulas use the corresponding price candle's high, low, opening, and closing prices:
+It is important to understand the underlying formulas used for calculating what percentage of total volume compose of bulls and bears. These formulas use the corresponding price candle's high, low, opening, and closing prices:
 
     %bulls = (close - low) / (high - low)
     %bears = (high - close) / (high - low)
